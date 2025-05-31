@@ -16,20 +16,20 @@ public class main {
 
         System.out.println("=============================================");
         System.out.println("Kalkulator Pabrik Cetakan Donat Rumahan");
-        System.out.printf("%-10s : GHANI BASKARA SYAH\n", "NAMA");
-        System.out.printf("%-10s : 245150700111008\n", "NIM");
+        System.out.printf("%-20s: GHANI BASKARA SYAH\n", "NAMA");
+        System.out.printf("%-20s: 245150700111008\n", "NIM");
         System.out.println("=============================================");
         System.out.println("DONAT DENGAN LUBANG");
         System.out.println("=============================================");
-        System.out.printf("%-10s : 7", "Isikan Radius");
-        System.out.printf("\n%-10s : 3.5", "Isikan Radius");
+        System.out.printf("%-20s: 7", "Isikan Radius");
+        System.out.printf("\n%-20s: 3.5", "Isikan Radius");
         System.out.println("\n=============================================");
         torus.printInfo();
         System.out.printf("\n%-20s: Rp.%,.0f,00", "Biaya Kirim",torus.calculateCost());
          System.out.println("DONAT TANPA LUBANG");
         System.out.println("=============================================");
-        System.out.printf("%-10s : 7", "Isikan Radius");
-        System.out.printf("\n%-10s : 3.5", "Isikan Radius");
+        System.out.printf("%-20s: 7", "Isikan Radius");
+        System.out.printf("\n%-20s: 3.5", "Isikan Radius");
         System.out.println("\n=============================================");
         sphere.printInfo();
         System.out.printf("\n%-20s: Rp.%,.0f,00", "Biaya Kirim",sphere.calculateCost());
