@@ -12,6 +12,8 @@ public class main {
         Sphere sphere = new Sphere(21);
         Scanner input = new Scanner(System.in);
 
+        torus.setName("DONAT DENGAN LUBANG");
+        sphere.setName("DONAT TANPA LUBANG");
         
 
         System.out.println("=============================================");
@@ -19,7 +21,7 @@ public class main {
         System.out.printf("%-20s: GHANI BASKARA SYAH\n", "NAMA");
         System.out.printf("%-20s: 245150700111008\n", "NIM");
         System.out.println("=============================================");
-        System.out.println("DONAT DENGAN LUBANG");
+        System.out.println(torus.getName());
         System.out.println("=============================================");
         System.out.printf("%-20s: 7", "Isikan Radius");
         System.out.printf("\n%-20s: 3.5", "Isikan radius");
@@ -27,7 +29,7 @@ public class main {
         torus.printInfo();
         System.out.printf("\n%-20s: Rp.%,.0f,00\n", "Biaya Kirim",torus.calculateCost());
         System.out.println("=============================================");
-         System.out.println("DONAT TANPA LUBANG");
+         System.out.println(sphere.getName());
         System.out.println("=============================================");
         System.out.printf("%-20s: 21", "Isikan Radius");
         System.out.println("\n=============================================");
