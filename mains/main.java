@@ -25,11 +25,11 @@ public class main {
         System.out.printf("\n%-20s: 3.5", "Isikan Radius");
         System.out.println("\n=============================================");
         torus.printInfo();
-        System.out.printf("\n%-20s: Rp.%,.0f,00", "Biaya Kirim",torus.calculateCost());
+        System.out.printf("\n%-20s: Rp.%,.0f,00\n", "Biaya Kirim",torus.calculateCost());
+        System.out.println("=============================================");
          System.out.println("DONAT TANPA LUBANG");
         System.out.println("=============================================");
-        System.out.printf("%-20s: 7", "Isikan Radius");
-        System.out.printf("\n%-20s: 3.5", "Isikan Radius");
+        System.out.printf("%-20s: 21", "Isikan Radius");
         System.out.println("\n=============================================");
         sphere.printInfo();
         System.out.printf("\n%-20s: Rp.%,.0f,00", "Biaya Kirim",sphere.calculateCost());
